@@ -1,0 +1,21 @@
+
+div {color:black;
+    background-color: aquamarine;
+}
+.aquaColor {
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+span.aquaColor {
+    color:aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+#specificColor {
+    color:purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
