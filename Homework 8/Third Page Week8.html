@@ -44,7 +44,14 @@
             return false;
            
         }  
-        
+        var radio = document.getElementsByName("yes").value;
+        if(radio == "")
+        {
+
+            document.getElementsByName("yes").style.background = "red";
+            document.getElementsByName("yes").focus();
+            
+        }
     }
    
    </script>
