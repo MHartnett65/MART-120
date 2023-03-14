@@ -41,7 +41,7 @@
             document.getElementById("email").focus();
             document.getElementById("EmailMessage").innerHTML = "* Required";
             
-
+            return false;
            
         }  
         
@@ -55,8 +55,8 @@
         <p></p>
         <form action=""></form>
             <p>First Name: <input type="text" id="fName"></p>
-            <p>Last Name: <input type="text" id="lName>"></p>
-            <p>Email: <input type="text" id="Email>"></p>
+            <p>Last Name: <input type="text" id="lName"></p>
+            <p>Email: <input type="text" id="Email"></p>
             <button id="btnSubmit" class="btn btn-primary" onclick= 'checkboxes();'>Submit My Info</button>
     </form>
         <h2>Do you agree to the terms and conditions</h2>
